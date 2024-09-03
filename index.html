@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center justify-content-center text-center bg-dark text-white">
+        <div class="container">
+            <h1>Bienvenido a Mi Portafolio</h1>
+            <p>Desarrollador Web | Diseñador UI/UX | Entusiasta de la Tecnología</p>
+            <a href="#projects" class="btn btn-primary mt-3">Ver Mis Proyectos</a>
+        </div>
+    </section>
+
+    <!-- Sección: Sobre Mí -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://avatars.githubusercontent.com/u/60768402?v=4" class="img-fluid rounded-circle" alt="Mi Foto">
+                </div>
+                <div class="col-md-8">
+                    <h2>Sobre Mí</h2>
+                    <p>Soy un desarrollador web con más de 5 años de experiencia en la creación de sitios web y aplicaciones modernas. Me especializo en la creación de soluciones digitales que no solo son funcionales, sino también estéticamente agradables y fáciles de usar.</p>
+                    <p>He trabajado con una variedad de tecnologías, incluidas HTML, CSS, JavaScript, React, y más. Siempre estoy buscando nuevas formas de mejorar mis habilidades y enfrentar nuevos desafíos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Habilidades -->
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Mis Habilidades</h2>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="skill">
+                        <i class="bi bi-code-slash"></i>
+                        <h3>Desarrollo Web</h3>
+                        <p>HTML, CSS, JavaScript, React, Angular</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <i class="bi bi-palette"></i>
+                        <h3>Diseño Gráfico</h3>
+                        <p>Photoshop, Illustrator, Figma, Sketch</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="skill">
+                        <i class="bi bi-bar-chart-line"></i>
+                        <h3>Marketing Digital</h3>
+                        <p>SEO, SEM, Content Marketing, Analytics</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Proyectos -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Mis Proyectos</h2>
+            <div id="carouselProjects" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Proyecto 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 1</h5>
+                                        <p class="card-text">Descripción breve del proyecto 1.</p>
+                                        <a href="#" class="btn btn-primary">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Proyecto 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 2</h5>
+                                        <p class="card-text">Descripción breve del proyecto 2.</p>
+                                        <a href="#" class="btn btn-primary">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Proyecto 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 3</h5>
+                                        <p class="card-text">Descripción breve del proyecto 3.</p>
+                                        <a href="#" class="btn btn-primary">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Proyecto 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 4</h5>
+                                        <p class="card-text">Descripción breve del proyecto 4.</p>
+                                        <a href="#" class="btn btn-primary">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Proyecto 5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 5</h5>
+                                        <p class="card-text">Descripción breve del proyecto 5.</p>
+                                        <a href="#" class="btn btn-primary">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card">
+                                    <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Proyecto 6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Proyecto 6</h5>
+                                        <p class="card-text">Descripción breve del proyecto 6.</p>
+                                        <a href="#" class="btn btn-primary">Ver Más</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Testimonios -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Testimonios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial text-center">
+                        <p>"El mejor desarrollador con el que he trabajado. Profesional y eficiente."</p>
+                        <h5>- Cliente 1</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial text-center">
+                        <p>"Su habilidad para resolver problemas es impresionante. Altamente recomendado."</p>
+                        <h5>- Cliente 2</h5>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial text-center">
+                        <p>"Su diseño es impecable. Entregó el proyecto antes del plazo."</p>
+                        <h5>- Cliente 3</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Contacto -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contáctame</h2>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo Electrónico</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+        <p>Diseñado por <a href="#" class="text-white text-decoration-none">Tu Nombre</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

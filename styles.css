@@ -1,0 +1,68 @@
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#hero {
+    height: 100vh;
+    background-image: url('https://resizer.glanacion.com/resizer/v2/el-dia-internacional-del-programador-se-celebra-VQV3UUONR5EJNJUGNXZF2IGP3A.jpg?auth=090a49b5ceca8f981a102997d13190656d6cccefc17023f7f4048ffd39bdcc68&width=880&height=586&quality=70&smart=true');
+    background-size: cover;
+    background-position: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+.skill {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+.skill i {
+    font-size: 2.5rem;
+    color: #007bff;
+}
+
+.testimonial {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
